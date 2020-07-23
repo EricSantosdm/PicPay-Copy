@@ -3,6 +3,8 @@ import{MaterialCommunityIcons,AntDesign} from '@expo/vector-icons';
 import {Warpper, Header, BalanceContainer,BalanceTitle, Balance,Container} from './styles';
 import Suggestions from '../../components/suggestions';
 import Activites from '../../components/activites';
+import Tips from '../../components/tips';
+import Banner from '../../components/banner';
 export default function Home(){
     return (
         <Warpper>
@@ -18,6 +20,8 @@ export default function Home(){
                 </Header>
                 <Suggestions/>
                 <Activites/>
+                <Tips/>
+                <Banner/>
             </Container>
         </Warpper>
     );
