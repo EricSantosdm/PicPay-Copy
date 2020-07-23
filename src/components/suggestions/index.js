@@ -12,7 +12,7 @@ const items=[
     {
         key:String(Math.random()),
         img:img1,
-        label:'Doações'
+         label:'Doações'
     },
     
     {
