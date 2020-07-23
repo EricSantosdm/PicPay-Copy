@@ -8,6 +8,7 @@ import img4 from '../../images/04.png';
 import img5 from '../../images/05.png';
 import img6 from '../../images/06.png';
 import img7 from '../../images/07.png';
+
 const items=[
     {
         key:String(Math.random()),
@@ -56,7 +57,9 @@ export default function Suggestions(){
              <Label>{item.label}</Label>
              </Option>
              ))}
+             
 
          </Container>
+         
      );
  }

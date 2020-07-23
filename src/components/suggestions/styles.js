@@ -2,6 +2,7 @@ import styled from 'styled-components/native';
 
 export const Container =styled.ScrollView.attrs(()=>({
     horizontal:true,
+    showHorizontalScrollIndicator:false,
     contentContainerStyle:{
         alignItems: 'center',
         paddingLeft:16 ,
@@ -10,6 +11,7 @@ export const Container =styled.ScrollView.attrs(()=>({
 }))`
     background:#1e222b;
     height:150px;
+    
 
 `;
 export const Option = styled.TouchableOpacity`

@@ -1,7 +1,8 @@
 import React from 'react';
 import{MaterialCommunityIcons,AntDesign} from '@expo/vector-icons';
 import {Warpper, Header, BalanceContainer,BalanceTitle, Balance,Container} from './styles';
-import Suggestions, {} from '../../components/suggestions';
+import Suggestions from '../../components/suggestions';
+import Activites from '../../components/activites';
 export default function Home(){
     return (
         <Warpper>
@@ -15,7 +16,8 @@ export default function Home(){
                  <AntDesign name="gift" size={30} color="#10c86e" />
                  
                 </Header>
-                <Suggestions>a</Suggestions>
+                <Suggestions/>
+                <Activites/>
             </Container>
         </Warpper>
     );
